@@ -4,8 +4,9 @@ public class CartesServiteurs extends Cartes{
 	
 	private static int attaque;
 	private static int vie;
+	private static boolean Capacite;
 	
-	public CartesServiteurs(int mana, String nom,int attaque,int vie) {
+	public CartesServiteurs(int mana, String nom,int attaque,int vie,boolean Capacite) {
 		super(mana, nom);
 		this.attaque=attaque;
 		this.vie = vie;
