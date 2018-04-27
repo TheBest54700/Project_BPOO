@@ -21,11 +21,11 @@ public class Deck {
 		int i,j;
 		Deck y = new Deck();
         y.choixHero();
-        System.out.println("Cartes Spéciales liées au Héro :");
+        System.out.println("\n"+"Cartes Spéciales liées au Héro :");
         for(i=0;i<=4;i++)
         	System.out.println(nb_CartesSpe[i].getCout()+" "+nb_CartesSpe[i].getNom());
       
-        System.out.println("Cartes Neutres :");
+        System.out.println("\n"+"Cartes Serviteurs Neutres :");
         for(j=0;j<=8;j++)
         {
         	System.out.println(nb_CartesServ[j].getCout()+" "+nb_CartesServ[j].getNom()+" "+nb_CartesServ[j].getAttaque()+" "+nb_CartesServ[j].getVie());
