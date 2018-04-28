@@ -4,6 +4,9 @@ public class Cartes{
 	private int mana;
 	private String nom;
 	
+ /**
+  * Un constructeur d'un objet cartes
+  */
  public Cartes(int mana, String nom) {
 	 this.mana=setCout(mana);
 	 this.nom=setNom(nom); 	
@@ -19,7 +22,7 @@ public class Cartes{
  }
  
  /**
-  *  Renvoie un nom
+  * Renvoie un nom
   */
  public String getNom() {
 	 return nom;

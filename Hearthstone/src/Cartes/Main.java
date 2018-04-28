@@ -63,7 +63,8 @@ public class Main {
      */
      public boolean SuppDernCarte()
      {
-         if(this.NCartes > 0){
+         if(this.NCartes > 0)
+         {
  			this.ListeCartes[this.NCartes-1]=null;
  			this.NCartes--;
  			return true;
